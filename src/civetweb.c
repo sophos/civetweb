@@ -785,8 +785,12 @@ typedef unsigned short int in_port_t;
 #endif
 #include <pthread.h>
 #if defined(__MACH__)
+#if !defined(SSL_LIB)
 #define SSL_LIB "libssl.dylib"
+#endif
+#if !defined(CRYPTO_LIB)
 #define CRYPTO_LIB "libcrypto.dylib"
+#endif
 #else
 #if !defined(SSL_LIB)
 #define SSL_LIB "libssl.so"
