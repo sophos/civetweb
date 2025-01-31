@@ -22,7 +22,7 @@
     <ProjectGuid>{E23B0040-F485-43D6-AA24-B34F9FED8484}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>civetweb</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
