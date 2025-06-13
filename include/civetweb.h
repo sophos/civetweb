@@ -46,6 +46,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
+#include <BaseTsd.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -1321,7 +1322,7 @@ mg_get_response_code_text(const struct mg_connection *conn, int response_code);
    Return:
     associated clientside socket of the connection
 */
-CIVETWEB_API unsigned int mg_getclient_socket(const struct mg_connection *conn);
+CIVETWEB_API UINT_PTR mg_getclient_socket(const struct mg_connection *conn);
 
 /* Return CivetWeb version. */
 CIVETWEB_API const char *mg_version(void);

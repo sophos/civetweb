@@ -22515,7 +22515,7 @@ mg_exit_library(void)
 	return 1;
 }
 
-unsigned int
+UINT_PTR
 mg_getclient_socket(const struct mg_connection * conn)
 {
 	if(conn)
