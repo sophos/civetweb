@@ -124,7 +124,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG_CONSOLE;OPENSSL_API_3_0;SSL_LIB="libssl-3.dll";CRYPTO_LIB="libcrypto-3.dll";USE_IPV6;USE_WEBSOCKET;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OPENSSL_API_3_0;SSL_LIB="libssl-3.dll";CRYPTO_LIB="libcrypto-3.dll";USE_IPV6;USE_WEBSOCKET;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
