@@ -22520,7 +22520,7 @@ mg_getclient_socket(const struct mg_connection * conn)
 {
 	if(conn)
 	{
-		return conn->client.sock;
+		return (unsigned int) conn->client.sock;
 	}
 	else
 	{
